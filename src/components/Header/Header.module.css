@@ -11,3 +11,8 @@
   gap: 14px;
   color: #202020;
 }
+
+.menu__item:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
