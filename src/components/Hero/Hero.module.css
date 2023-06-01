@@ -1,0 +1,68 @@
+.hero {
+  display: flex;
+  max-width: 1203px;
+  margin: 0 auto;
+}
+
+.hero__infos {
+  padding-top: 150px;
+  position: absolute;
+}
+
+.hero__p {
+  opacity: 0.5;
+  line-height: 26px;
+  width: 481px;
+}
+
+.hero__titulo p {
+  opacity: 0.5;
+}
+
+.hero__titulo span {
+  font-size: 82px;
+  font-weight: 900;
+  font-family: "Elsie Swash Caps";
+  line-height: 1.1em;
+  padding: 12px 0 24px;
+  display: block;
+  width: 375px;
+}
+
+.hero__cadastro {
+  position: absolute;
+  margin: 38px 0 0;
+  width: 50vw;
+  max-width: 585px;
+  height: 75px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+}
+
+.cadastro__input,
+.cadastro__botao {
+  border: none;
+  padding: 0 28px;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+}
+
+.cadastro__input {
+  width: 400px;
+}
+
+.cadastro__botao {
+  width: 185px;
+  color: white;
+  background-color: #ffcb47;
+}
+
+.hero__imagem {
+  position: relative;
+  left: 370px;
+  object-fit: cover;
+  object-position: center;
+  height: 875px;
+  width: 787px;
+}

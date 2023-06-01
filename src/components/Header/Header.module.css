@@ -1,0 +1,13 @@
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  max-width: 1203px;
+  margin: 0 auto;
+}
+
+.menu__lista {
+  display: flex;
+  gap: 14px;
+  color: #202020;
+}

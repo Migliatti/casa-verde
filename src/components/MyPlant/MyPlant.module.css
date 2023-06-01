@@ -1,0 +1,48 @@
+.myplant {
+  width: 995px;
+  background: #ffffff;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  gap: 24px;
+}
+
+.infos__titulo {
+  padding-bottom: 45px;
+}
+
+.infos__titulo p {
+  font-size: 22px;
+  opacity: 0.5;
+  padding-bottom: 12px;
+}
+
+.infos__titulo span {
+  font-size: 42px;
+  font-family: "Elsie Swash Caps";
+}
+
+.infos__lista {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.infos__item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.infos__item p {
+  font-size: 22px;
+  opacity: 0.5;
+}
+
+.item__marcador {
+  width: 52px;
+  height: 52px;
+  background-color: #ffcb47;
+  border-radius: 50%;
+}

@@ -1,3 +1,6 @@
+import style from "./Ofertas.module.css";
+import { BsArrowRight } from "react-icons/bs";
+
 function Ofertas() {
   const produtos = [
     {
@@ -33,19 +36,25 @@ function Ofertas() {
   ];
 
   return (
-    <div>
-      <h2>
-        Conheça nossas <span>ofertas</span>
+    <div className={style.ofertas}>
+      <h2 className={style.ofertas__titulo}>
+        <p>Conheça nossas</p> <span>ofertas</span>
       </h2>
-      <ul>
+      <ul className={style.ofertas__lista}>
         {produtos.map((produto, index) => {
           return (
-            <li key={index}>
-              <img src={produto.url} alt={produto.nome} />
-              <div>
-                <h3>{produto.nome}</h3>
-                <span>{produto.preco}</span>
-                <p>{"Comprar ->"}</p>
+            <li className={style.lista__item} key={index}>
+              <img
+                className={style.item__imagem}
+                src={produto.url}
+                alt={produto.nome}
+              />
+              <div className={style.item__info}>
+                <h3 className={style.info__nome}>{produto.nome}</h3>
+                <span className={style.info__preco}>{produto.preco}</span>
+                <button className={style.info__comprar}>
+                  Comprar <BsArrowRight />
+                </button>
               </div>
             </li>
           );

@@ -1,0 +1,64 @@
+.ofertas {
+  width: 1200px;
+  text-align: center;
+  margin: 44px auto 153px;
+}
+
+.ofertas__titulo p {
+  font-size: 22px;
+  opacity: 0.5;
+  padding-bottom: 12px;
+}
+
+.ofertas__titulo span {
+  font-family: "Elsie Swash Caps";
+  font-size: 82px;
+}
+
+.ofertas__lista {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 30px;
+}
+
+.lista__item {
+  display: flex;
+  align-items: center;
+  width: 379px;
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+  text-align: start;
+  background-color: white;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+}
+
+.item__info {
+  position: absolute;
+  max-width: 150px;
+  left: 220px;
+}
+
+.info__nome {
+  font-family: "Elsie Swash Caps";
+  font-size: 32px;
+}
+
+.info__preco {
+  font-size: 16px;
+  opacity: 0.5;
+  margin: 8px 0 24px;
+  display: block;
+}
+
+.info__comprar {
+  background: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 26px;
+  color: #ffcb47;
+  font-size: 16px;
+  font-family: "Montserrat";
+}
